@@ -1,0 +1,30 @@
+main {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+#theme-sect {
+  border: 1px solid red;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 0.2fr));
+  gap: 60px 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+#theme-sect .theme {
+  position: relative;
+  border: 1px solid springgreen;
+  height: 170px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#theme-sect .theme::before {
+  position: absolute;
+  content: "Name";
+  bottom: 0;
+  transform: translate(-50%, 110%);
+}

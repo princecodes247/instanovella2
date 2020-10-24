@@ -1,0 +1,41 @@
+main {
+}
+
+main form {
+  padding: 0 30px;
+  margin: 10px auto 0;
+  width: 80vw;
+}
+
+img {
+  width: 50px;
+}
+
+input#profile-pic {
+  width: 100%;
+  display: none;
+}
+
+.input-holder {
+  margin: 10px 0 10px;
+  display: flex;
+}
+
+.input-holder label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+#settings-sect {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  justify-content: space-around;
+}
+
+#settings-sect .setting {
+  margin: 10px 10px;
+  padding: 20px 0px;
+  border-bottom: 1px solid var(--sub-color);
+}
